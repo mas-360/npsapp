@@ -13,7 +13,7 @@ from streamlit_extras.metric_cards import style_metric_cards
 
 
 st.set_page_config(page_title="Coconut Cosmetics CX",
-                   layout="wide"
+                   layout="wide", initial_sidebar_state="expanded"
 )
 #---logo
 img_logo = Image.open("images/Capture.PNG")
