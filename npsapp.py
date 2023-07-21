@@ -16,7 +16,7 @@ st.set_page_config(page_title="Coconut Cosmetics CX",
                    layout="wide"
 )
 #---logo
-img_logo = Image.open("C:/Users/27823/MASINSIGHT/nps_survey/Capture.PNG")
+img_logo = Image.open("images/Capture.PNG")
 
 
 #---SIDEBAR---
