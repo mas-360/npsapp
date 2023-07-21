@@ -157,7 +157,7 @@ annotations.append(dict(xref='paper', yref='paper', x=0.0, y=1.05,
                               xanchor='left', yanchor='bottom',
                               text='NPS: we rank 4th among competitors - February 2023.',
                               font=dict(family='Arial',
-                                        size=25,
+                                        size=20,
                                         color='rgb(37,37,37)'),
                               showarrow=False))
 fig.update_layout(annotations=annotations) 
@@ -250,7 +250,7 @@ for y_trace, label, color in zip(y_data, labels, colors):
                                   xanchor='left', yanchor='bottom',
                                   text='Great Work! Continued progress towards improving NPS.',
                                   font=dict(family='Arial',
-                                            size=25,
+                                            size=20,
                                             color='rgb(37,37,37)'),
                                   showarrow=False))
 
@@ -348,7 +348,7 @@ for yd, xd in zip(y_data, x_data):
                                   xanchor='left', yanchor='bottom',
                                   text='NPS Comments: Detractors more vocal with product feedback.',
                                   font=dict(family='Arial',
-                                            size=25,
+                                            size=20,
                                             color='rgb(37,37,37)'),
                                   showarrow=False))
     space = xd[0]
@@ -468,7 +468,7 @@ annotations.append(dict(xref='paper', yref='paper', x=0.0, y=1.05,
                               xanchor='left', yanchor='bottom',
                               text='NPS over time: Detractors increasing, Passives shrink.',
                               font=dict(family='Arial',
-                                        size=25,
+                                        size=20,
                                         color='rgb(37,37,37)'),
                               showarrow=False))
 fig3.update_layout(annotations=annotations)
